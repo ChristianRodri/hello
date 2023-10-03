@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#map { 
+    height: 800px; 
+    width: 55%;
+    padding: 12px;
+    float: left;
+}
+
+.toolbar{
+    padding: 40px;
+    height: 40px;
+    background-color: #252836;
+    color: #9CDCF1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.info ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.info{
+    scroll-margin-bottom: 30px;
+    width: 45%;
+    float: left;
+}
+
+@media only screen and (max-width: 900px){
+    #map{
+        height: 500px;
+        width: 100%;
+    }
+}
+
